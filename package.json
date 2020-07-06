@@ -1,0 +1,24 @@
+{
+  "name": "react-native-simple-tab-header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fattahmuhyiddeen/react-native-simple-tab-header.git"
+  },
+  "keywords": [
+    "tab",
+    "react native",
+    "header"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fattahmuhyiddeen/react-native-simple-tab-header/issues"
+  },
+  "homepage": "https://github.com/fattahmuhyiddeen/react-native-simple-tab-header#readme"
+}
