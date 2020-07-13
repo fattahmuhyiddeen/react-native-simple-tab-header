@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ScrollView, View, Text } from 'react-native';
 
-export default ({ data, TouchableComponent, isScrollableTab, onSelectedIndexChanged, activeTabColor = 'black', TextComponent = Text }) => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+export default ({ data, TouchableComponent, isScrollableTab, onSelectedIndexChanged, initialIndex, activeTabColor = 'black', TextComponent = Text }) => {
+  const [selectedIndex, setSelectedIndex] = useState(initialIndex || 0);
 
   useEffect(() => {
     if (!!onSelectedIndexChanged && !!data[selectedIndex]) {
